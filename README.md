@@ -14,3 +14,7 @@ docker run -d name thunderbird \
 You must use **xhost** to allow the client to talk to the local machine, e.g. ```xhost +``` will allow any client to connect. You should limit this to the host machine IP address for security.
 
 The default usage above sets the storage of the Mozilla Thunderbird configuration to the user's home directory **.thunderbird**, you should configure the storage to your personal preferences such as **~/Documents/docker/thunderbird**.
+
+## Mac OS X
+
+If you are using a Mac, you need to install *XQuartz* which can be found [here](https://www.xquartz.org/).
